@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="workout.arjun.com.workoutapp.WorkoutDetailsFragment" android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:id="@+id/nametext"  android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_marginTop="@dimen/activity_vertical_margin" android:textSize="30sp"/>
+    <TextView android:id="@+id/descriptiontext"  android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:layout_marginTop="@dimen/activity_vertical_margin" android:textSize="20sp"/>
+</LinearLayout>
